@@ -1,0 +1,34 @@
+:root {
+    /* Fonts */
+    --main-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+
+    /* Text-color */
+
+    ---primary-text-color: rgba(33, 33, 33, 1);
+    ---title-text-color: rgba(117, 117, 117, 1);
+    ---accent-color: rgba(33, 150, 243, 1);
+    ---primary-white: rgba(255, 255, 255, 1);
+
+    /* BG-color */
+
+    ---white-bgd: rgba(255, 255, 255, 1);
+    ---accent-bgd: rgba(33, 150, 243, 1);
+    ---dark-bgd: rgba(47, 48, 58, 1);
+    ---white-bgd-10: rgba(255, 255, 255, 0.1);
+    ---secondary-bgd: rgba(245, 244, 250, 1);
+
+    /* Others */
+
+    ---border-color: rgba(236, 236, 236, 1);
+    ---btn-active-color: rgba(24, 140, 232, 1);
+    ---brands-icon: rgba(175, 177, 184, 1);
+    ---white-cl-60: rgba(255, 255, 255, 0.6);
+    ---logo__second-part: rgba(0, 0, 0, 1);
+    ---overlay-color: rgba(33, 150, 243, 0.9);
+    ---backdrop-color: rgba(0, 0, 0, 0.2);
+
+
+    ---trns-fast: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}

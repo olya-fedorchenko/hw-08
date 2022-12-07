@@ -1,0 +1,127 @@
+.form-group {
+    display: block;
+}
+
+.form-field {
+    position: relative;
+    display: block;
+    margin-bottom: 10px;
+    text-align: left;
+
+
+    &:focus-within>input {
+            border: 7px solid var(---accent-color);
+        }
+}
+
+
+.form-label {
+    display: block;
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: calc(14 / 12);
+    letter-spacing: 0.01em;
+    color: var(---title-text-color);
+}
+
+.form-input {
+    outline: transparent;
+    width: 100%;
+    height: 40px;
+    margin-top: 4px;
+    padding-left: 42px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    ;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: border var(---trns-fast);
+}
+
+
+.form-field:focus-within>input {
+    border: 1px solid var(---accent-color);
+}
+
+.form-field:hover>input {
+    border: 1px solid var(---accent-color);
+}
+
+.form-icon {
+    outline: transparent;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 12px;
+    top: 50%;
+    fill: currentColor;
+
+    transition: color var(---trns-fast);
+    cursor: pointer;
+
+    .form-field:focus-within> & {
+            color: var(---accent-color);
+        }
+
+    .form-field:hover> & {
+            color: var(---accent-color);
+        }
+
+
+}
+
+.form-message {
+    outline: transparent;
+    resize: none;
+    width: 100%;
+    height: 120px;
+    margin-top: 4px;
+    padding: 12px 16px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    transition: border var(---trns-fast);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.01em;
+    color: var(---primary-text-color);
+    cursor: pointer;
+
+    &:focus,
+    &:hover {
+        border: 1px solid var(---accent-color);
+    }
+}
+
+
+.form-policy-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+}
+
+.form-policy-dscr {
+    font-size: 12px;
+    line-height: calc(14 / 12);
+    letter-spacing: 0.03em;
+    color: var(---title-text-color);
+    margin-bottom: 0;
+
+    @media screen and (min-width: 1200px) {
+        font-size: 14px;
+        line-height: calc(24 / 14);
+        }
+
+}
+
+.link-policy {
+    color: var(---accent-color);
+    text-decoration: underline;
+
+}
+

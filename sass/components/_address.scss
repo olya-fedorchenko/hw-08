@@ -1,0 +1,34 @@
+.address {
+    display: block;
+    width: 231px;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+
+.address__list {
+    font-family: var(--main-font);
+    font-style: normal;
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.address__item {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.address__item+.address__item {
+    margin-top: 9px;
+}
+
+.address__maps {
+    color: var(---primary-white)
+}
+
+.address__link {
+    color: var(---white-cl-60);
+
+}
